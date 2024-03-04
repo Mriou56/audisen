@@ -1,8 +1,14 @@
-//
-// Created by alexm on 04/03/2024.
-//
+/**
+ * @authors Cavaro Alexandre Riou Margot Caen
+ */
 
 #ifndef AUDISEN_USB_H
 #define AUDISEN_USB_H
+
+#include "ftd2xx.h"
+
+FT_HANDLE initUSB();
+void closeUSB(FT_HANDLE ftHandle);
+void writeUSB(char* frame, FT_HANDLE ftHandle);
 
 #endif //AUDISEN_USB_H

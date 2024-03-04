@@ -57,6 +57,54 @@ build CMakeFiles/audisen.dir/main.c.o: C_COMPILER__audisen_unscanned_Debug /User
   TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
   TARGET_PDB = audisen.pdb
 
+build CMakeFiles/audisen.dir/ams.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/ams.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/ams.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
+build CMakeFiles/audisen.dir/amp.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/amp.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/amp.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
+build CMakeFiles/audisen.dir/frame.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/frame.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/frame.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
+build CMakeFiles/audisen.dir/usb.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/usb.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/usb.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
+build CMakeFiles/audisen.dir/audisen_sim.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/audisen_sim.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/audisen_sim.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
+build CMakeFiles/audisen.dir/audisen_usb.c.o: C_COMPILER__audisen_unscanned_Debug /Users/margotriou/CLionProjects/audisen/audisen_usb.c || cmake_object_order_depends_target_audisen
+  DEP_FILE = CMakeFiles/audisen.dir/audisen_usb.c.o.d
+  FLAGS = -g -std=gnu11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/audisen.dir
+  OBJECT_FILE_DIR = CMakeFiles/audisen.dir
+  TARGET_COMPILE_PDB = CMakeFiles/audisen.dir/
+  TARGET_PDB = audisen.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target audisen
@@ -65,7 +113,7 @@ build CMakeFiles/audisen.dir/main.c.o: C_COMPILER__audisen_unscanned_Debug /User
 #############################################
 # Link the executable audisen
 
-build audisen: C_EXECUTABLE_LINKER__audisen_Debug CMakeFiles/audisen.dir/main.c.o
+build audisen: C_EXECUTABLE_LINKER__audisen_Debug CMakeFiles/audisen.dir/main.c.o CMakeFiles/audisen.dir/ams.c.o CMakeFiles/audisen.dir/amp.c.o CMakeFiles/audisen.dir/frame.c.o CMakeFiles/audisen.dir/usb.c.o CMakeFiles/audisen.dir/audisen_sim.c.o CMakeFiles/audisen.dir/audisen_usb.c.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/audisen.dir
   POST_BUILD = :
