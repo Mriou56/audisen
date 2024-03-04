@@ -1,5 +1,5 @@
 /**
- * @authors Cavaro Alexandre Riou Margot Caen
+ * @authors Cavaro Alexandre Riou Margot Groupe 2 Caen
  */
 
 #ifndef AUDISEN_USB_H

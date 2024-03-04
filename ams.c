@@ -1,7 +1,6 @@
-//
-// Created by alexm on 04/03/2024.
-//
-
+/**
+ * @authors Cavaro Alexandre Riou Margot Groupe 2 Caen
+ */
 #include "ams.h"
 #include "define.h"
 
